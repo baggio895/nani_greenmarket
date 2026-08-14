@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="南一綠市集首頁視覺原型，依使用者提供畫面重建。">
+  <title>南一綠市集｜簡單實踐綠色生活</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="utility-bar">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">☰<span>選單</span></button>
+      <img class="header-shot" src="assets/header-top.webp" alt="Nani 1953；會員、購物車與搜尋">
+    </div>
+    <nav id="primary-nav" class="primary-nav" aria-label="主要導覽">
+      <a href="#">首頁</a><a href="#">活動專區</a><a href="#">綠色生活</a><a href="#">天然保健</a>
+      <a href="#">有機保養</a><a href="#">漫畫小說</a><a href="#">學齡前圖書</a><a href="#">考試用書</a>
+      <a href="#">文創圖書</a><a href="#">文創周邊</a><a href="#news">訊息專區</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="南一綠市集新會員募集">
+      <img src="assets/hero-current.webp" alt="全國競賽超越盃團體競賽早鳥優惠與報名資訊">
+    </section>
+
+    <section class="visual-section full-bleed" aria-label="一起打造綠色生活圈">
+      <img src="assets/green-life.webp" alt="一起打造綠色生活圈：綠色選品、趣味教育、健康選擇、安心保養品、全素保健品、本週綠話題">
+    </section>
+
+    <section class="products wrap" aria-labelledby="new-title">
+      <h2 id="new-title" class="image-title"><img src="assets/new-title.webp" alt="新品上市"></h2>
+      <div class="product-grid">
+        <article class="product-card"><img src="assets/product-tea.webp" alt="益妍堂水果茶禮盒"><h3>【益妍堂】水果茶禮盒</h3><p><strong>NT$559</strong> <del>NT$638</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-book.webp" alt="兒童古典文學聊齋誌異"><h3>兒童古典文學-聊齋誌異</h3><p><strong>NT$380</strong></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-roll.webp" alt="台灣好農葉酸蛋蛋捲"><h3>（預購9月中陸續出貨）【台灣好農】好農葉酸蛋鮮蛋捲(22g*12支/盒)(香草)</h3><p><strong>NT$780</strong> <del>NT$960</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-protein.webp" alt="O卡桑可可植物蛋白"><h3>【O卡桑】可可植物蛋白</h3><p><strong>NT$650</strong> <del>NT$700</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-pear.webp" alt="卓蘭新興水梨"><h3>卓蘭新興水梨</h3><p><strong>NT$1,200</strong> <del>NT$1,510</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-pineapple.webp" alt="兔運牛奶鳳梨家庭號"><h3>（兔運）牛奶鳳梨〈台農20號〉家庭號（6~9顆 約18斤）</h3><p><strong>NT$1,350</strong> <del>NT$1,500</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-pineapple-gift.webp" alt="兔運牛奶鳳梨禮盒裝"><h3>（兔運）牛奶鳳梨〈台農20號〉禮盒裝（2~3顆 約5~6斤）</h3><p><strong>NT$660</strong> <del>NT$700</del></p><button type="button">加入購物車</button></article>
+        <article class="product-card"><img src="assets/product-chocolate.webp" alt="連淨台灣紅玉風味巧克力"><h3>【連淨】台灣紅玉風味巧克力70% 42g(冷藏)</h3><p><strong>NT$342</strong> <del>NT$380</del></p><button type="button">加入購物車</button></article>
+      </div>
+      <a class="more-link" href="#">查看更多</a>
+    </section>
+
+    <section class="visual-section full-bleed" aria-label="推薦商品"><img src="assets/recommended-current.webp" alt="推薦商品"></section>
+    <section class="visual-section full-bleed" aria-label="會員享好康"><img src="assets/member-current.webp" alt="會員享好康：滿額免運、入會購物金、生日禮金、VIP與SVIP禮遇"></section>
+    <section id="news" class="visual-section wrap" aria-label="訊息專區"><img src="assets/news.webp" alt="訊息專區親子教育文章"></section>
+    <section class="visual-section full-bleed" aria-label="關於南一綠市集與頁尾資訊"><img src="assets/about-current.webp" alt="關於南一綠市集、聯絡資訊與公司資訊"></section>
+  </main>
+
+  <p class="prototype-note">依公開網站與使用者提供畫面建立之非官方視覺原型，與南一書局企業股份有限公司無隸屬或背書關係。</p>
+  <script src="script.js"></script>
+  <script>
+    // Never place BotBonnie API tokens, API secrets, or CRM keys in static frontend code.
+    const BOTBONNIE_PAGE_ID = "page-6f29a417eec048cfb6a3c241";
+
+    window.BBAsyncInit = function () {
+      BB.init({
+        appId: BOTBONNIE_PAGE_ID
+      });
+    };
+  </script>
+  <script async type="text/javascript" src="https://asset.botbonnie.com/sdk/sdk.js"></script>
+</body>
+</html>
